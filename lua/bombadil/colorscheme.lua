@@ -105,7 +105,6 @@ local theme = lush(function()
     TelescopeResultsDiffDelete { DiffDelete }, -- TelescopeResultsDiffDelete xxx links to DiffDelete
     DiffText { bg = "#394b70" }, -- DiffText       xxx cterm=bold ctermbg=9 guibg=#394b70
 
-    SignColumn { fg = "#3b4261", bg = "#24283b" }, -- SignColumn     xxx ctermfg=14 ctermbg=242 guifg=#3b4261 guibg=#24283b
     Conceal { fg = "#737aa2" }, -- Conceal        xxx ctermfg=7 ctermbg=242 guifg=#737aa2
 
     SpellBad { gui = "undercurl", sp = "#db4b4b" }, -- SpellBad       xxx ctermbg=9 gui=undercurl guisp=#db4b4b
@@ -165,6 +164,7 @@ local theme = lush(function()
     TelescopeNormal { Normal }, -- TelescopeNormal xxx links to Normal
     DiffviewSignColumn { Normal }, -- DiffviewSignColumn xxx links to Normal
     DiffviewNormal { Normal }, -- DiffviewNormal xxx links to Normal
+    SignColumn { Normal },
 
     Substitute { fg = "#1d202f", bg = "#f7768e" }, -- Substitute     xxx guifg=#1d202f guibg=#f7768e
 
